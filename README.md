@@ -19,14 +19,16 @@ You can find the wireframe for this page here along with the added sticky notes 
 
 Page should be viewable only by a signed in user `You should have received your test user credentials in the email`
 
+To access the endpoints you'll be using the following base url: `https://ltw-cms-stg.herokuapp.com` so e.g. the url of activity detail endpoint would become `https://ltw-cms-stg.herokuapp.com/frontend/activities/slug/:activity_slug`
+
 ## Must have features
 - The page doesn't need to be detailed as the live one. Please go through the wireframe for the elements required in the page.
 
-- URL of activity page should be `/:activity_slug`
+- URL of activity page should be `/:activity_slug`. Following are some of the existing activity's slugs which you can use to test your development: castle-of-gerald-the-devil , belfry-of-ghent , birth-forest-geboortebos
 
 - You'll fetch the activity's detail using following api
     ```
-      ENDPOINT:  activities/slug/:activity_slug
+      ENDPOINT:  frontend/activities/slug/:activity_slug
       REQUEST TYPE: GET
       REQUEST BODY: {identifier, password}
       ^ This endpoint returns you the details of the activity. Below mentioned are the response fields you'll need. See the wireframe https://lucid.app/lucidchart/3a830004-3d26-499c-83d5-a11c916f752a/edit?invitationId=inv_fc0bd1b0-b224-402f-a456-56e10e2f4ada&page=0_0# to get an understanding of what you'll use where
