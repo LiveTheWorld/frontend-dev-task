@@ -15,7 +15,7 @@ You'll be implementing a ACTIVITY'S DETAIL PAGE, similar to our current detail p
 
 `We do suggest you to visit our activity's pages and explore around for a few minutes so that you get the gist of what you are supposed to implement.`
 
-You can find the wireframe for this page here along with the added sticky notes for guidance where necessary: https://lucid.app/lucidchart/3a830004-3d26-499c-83d5-a11c916f752a/edit?invitationId=inv_fc0bd1b0-b224-402f-a456-56e10e2f4ada&page=0_0# 
+You can find the wireframe for this page here along with the added sticky notes for guidance where necessary: https://lucid.app/lucidchart/3a830004-3d26-499c-83d5-a11c916f752a/edit?invitationId=inv_fc0bd1b0-b224-402f-a456-56e10e2f4ada&page=0_0#  `You can quickly create an account for free here using your email to view the wireframe`
 
 Page should be viewable only by a signed in user `You should have received your test user credentials in the email`
 
