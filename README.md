@@ -151,7 +151,7 @@ Must haves:
 
 NOTES:
 - Use any UI framework of your comfort
-- There are no marks for a heavily designed UX it just needs to be plain, simple and mobile responsive ofcourse :)
+- There are no marks for a heavily designed UX but it still needs to be plain, simple and mobile responsive ofcourse :)
 
 ## Evaluation
 In this assignment we would like you to showcase the following skills:
