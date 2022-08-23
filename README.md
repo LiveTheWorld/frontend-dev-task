@@ -28,7 +28,7 @@ To access the endpoints you'll be using the following base url: `https://ltw-cms
 
 - You'll fetch the activity's detail using following api
     ```
-      ENDPOINT:  frontend/activities/slug/:activity_slug
+      ENDPOINT:  /frontend/activities/slug/:activity_slug
       REQUEST TYPE: GET
       REQUEST BODY: {identifier, password}
       ^ This endpoint returns you the details of the activity. Below mentioned are the response fields you'll need. See the wireframe https://lucid.app/lucidchart/3a830004-3d26-499c-83d5-a11c916f752a/edit?invitationId=inv_fc0bd1b0-b224-402f-a456-56e10e2f4ada&page=0_0# to get an understanding of what you'll use where
@@ -49,7 +49,7 @@ To access the endpoints you'll be using the following base url: `https://ltw-cms
 - Page should be viewable only by a signed in user `You should have received your test user credentials in the email`
 - Incase a non signed-in user lands on the page, show a popup / modal for login on top of the activity page. It should just take the email and password and do the login hit. Here are the details of login api.
   ```
-      ENDPOINT:  auth/local/
+      ENDPOINT:  /auth/local/
       REQUEST TYPE: POST
       REQUEST BODY: {identifier, password}
       ^ This endpoint expects email of user in the identifier field and the password.
@@ -64,7 +64,7 @@ To access the endpoints you'll be using the following base url: `https://ltw-cms
 - For logged in user, do the user trips api hit to fetch the user's existing trips, based on the response you'll be able to show whether the user already has saved particular activity or not.
 
   ```  
-      ENDPOINT:  frontend/trips
+      ENDPOINT:  /frontend/trips
       REQUEST TYPE: GET
       ^ While calling this endpoint you should be sending the authentication jwt token in headers too which you received earlier in login response.
       e.g. Authorization: `Bearer your_token`
@@ -84,7 +84,7 @@ To access the endpoints you'll be using the following base url: `https://ltw-cms
 - If the current activity is already added to favorites show SAVED else SAVE in the SAVE BUTTON mentioned on wireframe.
 - You'll also be needed to show a carousel for nearby activities ( see wireframe ). To fetch the nearby activities in vicinity of the current one, use the current activity's id which you received earlier in activity's endpoint
    ```  
-      ENDPOINT:  frontend/activities/nearby/:activity_id
+      ENDPOINT:  /frontend/activities/nearby/:activity_id
       REQUEST TYPE: GET
       ^ While calling this endpoint you should be sending the authentication jwt token in headers too which you received earlier in login response.
       e.g. Authorization: `Bearer your_token`
@@ -104,7 +104,7 @@ To access the endpoints you'll be using the following base url: `https://ltw-cms
   ```
  - A signed in user should also be able to add the current activity or any activity nearby activities to his favorites. You'll have to use following endpoint for this:
   ```  
-      ENDPOINT:  frontend/trips/add_activity
+      ENDPOINT:  /frontend/trips/add_activity
       REQUEST TYPE: PUT
       REQUEST BODY: 
       {
@@ -119,7 +119,7 @@ To access the endpoints you'll be using the following base url: `https://ltw-cms
   ```
  - A signed in user should also be able to remove the current activity or any activity nearby activities from the favorites. You'll have to use following endpoint for this:
   ```  
-      ENDPOINT:  frontend/trips/remove_activity
+      ENDPOINT:  /frontend/trips/remove_activity
       REQUEST TYPE: PUT
       REQUEST BODY: 
       {
