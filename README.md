@@ -1,6 +1,6 @@
 # frontend-dev-task
 
-This task is designed towards delivering a complete detail landing page for our activities. We have intentionally provided just the basic guidelines and a wireframe. 
+This task is designed towards delivering a detail landing page for our activities. We have intentionally provided just the basic guidelines and a wireframe. 
 
 Considering the nature of the role you'll be required to give your own inputs and collaborate with the team on the UX, so figuring out the UX for this task is upto you.
 
@@ -13,7 +13,7 @@ Remember you can contact me at ali@livetheworld.com incase you've any questions.
 
 You'll be implementing a ACTIVITY'S DETAIL PAGE, similar to our current detail page e.g. here https://www.livetheworld.com/activities/belgium/castle-of-gerald-the-devil but obviously with not all the details and functionalities 😁 
 
-`We do suggest you to visit our activity's pages and explore around for a few minutes so that you get the gist of what you are supposed to implement.`
+`We do suggest you to visit our activity's pages and explore around for a few minutes so that you get the gist of what you are supposed to implement and get inspiration from there.`
 
 You can find the wireframe for this page here along with the added sticky notes for guidance where necessary: https://lucid.app/lucidchart/3a830004-3d26-499c-83d5-a11c916f752a/edit?invitationId=inv_fc0bd1b0-b224-402f-a456-56e10e2f4ada&page=0_0#  `You can quickly create an account for free here using your email to view the wireframe`
 
