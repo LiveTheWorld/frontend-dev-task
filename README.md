@@ -39,7 +39,7 @@ To access the endpoints you'll be using the following base url: `https://ltw-cms
         id,
         slug,
         description_short,
-        description_long,
+        description_long, // IT WILL BE A HTML MARKUP STRING SO USE ACCORDINGLY ON FRONTEND
         latitude,
         longitude,
         images,
