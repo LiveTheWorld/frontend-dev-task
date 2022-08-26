@@ -170,6 +170,8 @@ Let us know what still has be to done, in case you didn't manage to complete eve
 
 
 ## Submission
-You should upload your code to Github repositories (public) and share it with us. Your repositories should have a README.md that explains how to run the code and any other notes that are important.
+- You should upload your code to Github repositories (public) and share it with us. 
+- Also please share the live url to the deployed app.
+- Your repositories should have a README.md that explains how to run the code and any other notes that are important.
 
 ### Looking forward to see your submission. HAPPY CODING 🎉
