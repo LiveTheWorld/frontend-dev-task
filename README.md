@@ -30,7 +30,6 @@ To access the endpoints you'll be using the following base url: `https://ltw-cms
     ```
       ENDPOINT:  /frontend/activities/slug/:activity_slug
       REQUEST TYPE: GET
-      REQUEST BODY: {identifier, password}
       ^ This endpoint returns you the details of the activity. Below mentioned are the response fields you'll need. See the wireframe https://lucid.app/lucidchart/3a830004-3d26-499c-83d5-a11c916f752a/edit?invitationId=inv_fc0bd1b0-b224-402f-a456-56e10e2f4ada&page=0_0# to get an understanding of what you'll use where
 
       RESPONSE: 
