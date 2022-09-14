@@ -85,8 +85,6 @@ To access the endpoints you'll be using the following base url: `https://ltw-cms
    ```  
       ENDPOINT:  /frontend/activities/nearby/:activity_id
       REQUEST TYPE: GET
-      ^ While calling this endpoint you should be sending the authentication jwt token in headers too which you received earlier in login response.
-      e.g. Authorization: `Bearer your_token`
 
       Based on this api response show all nearby activity's and also their save status as per wireframe. ( Whether any activity is added to favorites or not you already have the data in trips api above
       
