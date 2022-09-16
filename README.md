@@ -106,7 +106,6 @@ To access the endpoints you'll be using the following base url: `https://ltw-cms
       REQUEST BODY: 
       {
         activityId: // ID OF ACTIVITY TO ADD
-        tripId: // ID OF YOUR FAVORITE TRIP WHICH YOU RECEIVED IN TRIPS API
         tripType: "favorite"
       }
       ^ While calling this endpoint you should be sending the authentication jwt token in headers too which you received earlier in login response.
@@ -121,7 +120,6 @@ To access the endpoints you'll be using the following base url: `https://ltw-cms
       REQUEST BODY: 
       {
         activityId: // ID OF ACTIVITY TO ADD
-        tripId: // ID OF YOUR FAVORITE TRIP WHICH YOU RECEIVED IN TRIPS API
         tripType: "favorite"
       }
       ^ While calling this endpoint you should be sending the authentication jwt token in headers too which you received earlier in login response.
